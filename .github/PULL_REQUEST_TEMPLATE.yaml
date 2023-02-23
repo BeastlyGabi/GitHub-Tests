@@ -1,0 +1,32 @@
+name: Pull Request Template
+description: Request your changes to be merged
+
+body:
+- type: textarea
+  id: pr_goals
+  attributes: My goals
+  validations:
+    required: true
+
+- type: textarea
+  id: pr_acceptance
+  attributes: Why should my changes be accepted
+  validations:
+    required: true
+
+- type: dropdown
+  id: pr_category
+  attributes: Where does this pull request fit from a code perspective
+  options:
+  - New Features
+  - Code Enhancements
+  - Bug Fixes
+  - Other
+  validations:
+    required: true
+
+- type: textarae
+  id: pr_category_other
+  attributes: If the previous question was responded with "other", what exactly is it? (OPTIONAL)
+  validations:
+    required: false
