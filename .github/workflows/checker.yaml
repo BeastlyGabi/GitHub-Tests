@@ -4,13 +4,11 @@ on:
 - pull_request
 
 jobs:
-  test_runner:
+  testLinux:
     runs-on: ubuntu-22.04
     steps:
     - name: "Linux Run"
-      run: echo "This step always runs on a Linux VM"
-  test_runner_num2:
-    runs-on: windows-2022
-    steps:
-    - name: "Windows Run"
-      run: echo "This step always runs on a Windows VM"
+      run: |
+        echo "This is a test"
+        echo "for running multiple"
+        echo "commands at once"
