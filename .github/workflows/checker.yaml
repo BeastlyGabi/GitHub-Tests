@@ -13,4 +13,4 @@ jobs:
     runs-on: windows-2022
     steps:
     - name: "Windows Run"
-      run: "This step always runs on a Windows VM"
+      run: echo "This step always runs on a Windows VM"
