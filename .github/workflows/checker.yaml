@@ -1,0 +1,16 @@
+name: Code Runner
+on:
+- push
+- pull_request
+
+jobs:
+  test_runner:
+    runs-on: ubuntu-22.04
+    steps:
+    - name: "Linux Run"
+      run: echo "This step always runs on a Linux VM"
+  test_runner_num2:
+    runs-on: windows-2022
+    steps:
+    - name: "Windows Run"
+      run: "This step always runs on a Windows VM"
