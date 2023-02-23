@@ -1,4 +1,4 @@
-# "What does your changes accomplish?"
+## "Whar are your goals?"
 
 --------------
 
@@ -6,7 +6,7 @@
 
 --------------
 
-# "Why should you changes me merged?"
+## "Why should your changes me merged?"
 
 --------------
 
