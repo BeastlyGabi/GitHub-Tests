@@ -1,4 +1,4 @@
-## "Whar are your goals?"
+## "What are your goals?"
 
 <!-- State here what these changes accomplish -->
 
